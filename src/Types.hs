@@ -84,6 +84,6 @@ instance FromRow Interactions where
 
 
 instance ToJSON Interactions where
-  toJSON (Interactions drug1name drug2name interaction) = object [ "drug1name" .= drug1name
+  toJSON (Interactions drug1name drug2name druginteraction) = object [ "drug1name" .= drug1name
                                                                  , "drug2name" .= drug2name
-                                                                 , "interaction" .= interaction]
+                                                                 , "interaction" .= druginteraction]

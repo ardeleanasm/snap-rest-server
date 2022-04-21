@@ -12,7 +12,7 @@ import Snap.Core
 import Snap.Snaplet
 import Snap.Snaplet.PostgresqlSimple
 import qualified Data.ByteString.Char8 as B
-
+import Data.Text.Encoding as TSE
 import InteractionsUtil
 import Control.Monad
 import qualified Data.String as DS
@@ -35,22 +35,29 @@ interactionsRoutes = [
 
 
 
-
 makeQuery::B.ByteString->B.ByteString->Query
-makeQuery drug1 drug2 = DS.fromString ("SELECT drug1,drug2,interaction FROM interactions WHERE drug1 = '"++(B.unpack drug1)++"' and drug2 = '"++(B.unpack drug2)++"'")
+makeQuery drug1 drug2 = DS.fromString ("SELECT drug1,drug2,interaction FROM interactions WHERE drug1 = '"++newdrug1++"' and drug2 = '"++newdrug2++"'")
+  where
+    newdrug1 = B.unpack drug1
+    newdrug2 = B.unpack drug2
 
 
 getDrugList :: Handler b InteractionsService ()
 getDrugList = do
   drugList <- getQueryParam "list"
-  let drugs = getDrugPairs $ show drugList
-  let drugs = getDrugPairs $ show drugList
-  modifyResponse $ setHeader "Content-type" "application/json"
-  forM_ drugs $ \(drug1,drug2) -> do
-   logError ((B.pack "Drug Pair") <> drug1 <> drug2)
-   let theQuery = makeQuery drug1 drug2
-   pair<-query_ theQuery
-   writeLBS . encode $ (pair::[Interactions])
+  case drugList of
+    Just a -> do
+      let drugs = getDrugPairs $ B.unpack a
+      modifyResponse $ setHeader "Content-type" "application/json"
+      forM_ drugs $ \(drug1,drug2) -> do
+--   logError ((B.pack "Drug Pair") <> drug1 <> drug2)
+        let theQuery = makeQuery drug1 drug2
+        pair<-query_ theQuery
+
+        writeLBS . encode $ (pair::[Interactions])
+    Nothing -> writeBS "must specify param in URL"
+
+
       
 
                                                                
