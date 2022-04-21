@@ -3,14 +3,20 @@
 
 module Core where
 
-import TodoService
+--import TodoService
+import InteractionsService
+import DrugsService
+import DbVersionService
 import Snap.Core
 import Snap.Snaplet
 import Control.Lens
 
 import qualified Data.ByteString.Char8 as B
 
-data Api = Api {_todoService :: Snaplet TodoService}
+
+data Api = Api {_drugsService :: Snaplet DrugsService
+               ,_dbVersionService :: Snaplet DbVersionService
+               ,_interactionsService :: Snaplet InteractionsService}
 
 makeLenses ''Api
 
@@ -25,6 +31,8 @@ respondOk = do
 
 apiInit :: SnapletInit b Api
 apiInit = makeSnaplet "api" "Core Api" Nothing $ do
-  ts <- nestSnaplet "todos" todoService todoServiceInit
+  ds <- nestSnaplet "drugs" drugsService drugsServiceInit
+  vs <- nestSnaplet "version" dbVersionService dbVersionServiceInit
+  is <- nestSnaplet "interactions" interactionsService interactionsServiceInit
   addRoutes apiRoutes
-  return $ Api ts
+  return $ Api ds vs is

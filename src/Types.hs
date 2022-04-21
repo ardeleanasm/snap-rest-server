@@ -8,14 +8,79 @@ import qualified Data.Text as T
 import Data.Aeson 
 import Snap.Snaplet.PostgresqlSimple
 
+{-
 data Todo = Todo
   { id :: Int
   , text :: T.Text
   }
+-}
+data Drugs = Drugs
+  { id :: Int
+  , drugname :: T.Text
+  , rodrugname :: T.Text
+  }
 
-instance FromRow Todo where
-  fromRow = Todo <$> field
-                 <*> field
+data DbVersion = DbVersion
+  {
+    dbversion :: T.Text
+  }
 
-instance ToJSON Todo where
-  toJSON (Todo id text) = object [ "id" .= id, "text" .= text ]
+
+data DbEntryInteractions = DbEntryInteractions
+  { iid :: Int
+  , drug1 :: T.Text
+  , db1id :: T.Text
+  , drug2 :: T.Text
+  , db2id :: T.Text
+  , interaction :: Int
+  }
+
+data Interactions = Interactions
+  {
+    drug1name :: T.Text
+  , drug2name :: T.Text
+  , druginteraction :: Int
+  }
+  
+
+instance FromRow Drugs where
+  fromRow = Drugs <$> field
+                  <*> field
+                  <*> field
+                  
+
+instance ToJSON Drugs where
+  toJSON (Drugs id drugname rodrugname) = object [ "id" .= id, "drugname" .= drugname, "rodrugname" .= rodrugname ]
+
+ 
+instance FromRow DbVersion where
+  fromRow = DbVersion <$> field
+
+instance ToJSON DbVersion where
+  toJSON (DbVersion dbversion) = object [ "dbVersion" .= dbversion ]
+
+
+instance FromRow DbEntryInteractions where
+  fromRow = DbEntryInteractions <$> field
+                                <*> field
+                                <*> field
+                                <*> field
+                                <*> field
+                                <*> field
+
+instance ToJSON DbEntryInteractions where
+  toJSON (DbEntryInteractions id drug1name db1id drug2name db2id interaction) = object [ "id" .= id
+                                                                                       , "drug1name" .= drug1name
+                                                                                       , "db1id" .= db1id
+                                                                                       , "drug2name" .= drug2name
+                                                                                       , "db2id" .= db2id
+                                                                                       , "interaction" .= interaction]
+instance FromRow Interactions where
+  fromRow = Interactions <$> field
+                         <*> field
+                         <*> field
+
+instance ToJSON Interactions where
+  toJSON (Interactions drug1name drug2name interaction) = object [ "drug1name" .= drug1name
+                                                                 , "drug2name" .= drug2name
+                                                                 , "interaction" .= interaction]

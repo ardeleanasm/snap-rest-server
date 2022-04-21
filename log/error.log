@@ -1,0 +1,273 @@
+[17/Apr/2022:18:35:15 +0300] During processing of request from 127.0.0.1:55542
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55542 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:35:38 +0300] During processing of request from 127.0.0.1:55548
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55548 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:36:38 +0300] During processing of request from 127.0.0.1:55566
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55566 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:36:41 +0300] During processing of request from 127.0.0.1:55576
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55576 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:37:33 +0300] During processing of request from 127.0.0.1:55582
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55582 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:38:07 +0300] During processing of request from 127.0.0.1:55590
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55590 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:38:18 +0300] During processing of request from 127.0.0.1:55596
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55596 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:38:45 +0300] During processing of request from 127.0.0.1:55602
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55602 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:38:54 +0300] During processing of request from 127.0.0.1:55608
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55608 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:39:56 +0300] During processing of request from 127.0.0.1:55620
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55620 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:42:34 +0300] During processing of request from 127.0.0.1:55778
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55778 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:43:01 +0300] During processing of request from 127.0.0.1:55784
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55784 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:43:11 +0300] During processing of request from 127.0.0.1:55790
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55790 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:46:27 +0300] During processing of request from 127.0.0.1:55826
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55826 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+)
+[17/Apr/2022:18:47:02 +0300] During processing of request from 127.0.0.1:55834
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55834 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:18:48:02 +0300] During processing of request from 127.0.0.1:55842
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:55842 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:32:28 +0300] During processing of request from 127.0.0.1:56476
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:56476 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:32:30 +0300] During processing of request from 127.0.0.1:56482
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:56482 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:32:30 +0300] During processing of request from 127.0.0.1:56488
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:56488 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:32:31 +0300] During processing of request from 127.0.0.1:56494
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:56494 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:32:32 +0300] During processing of request from 127.0.0.1:56500
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:56500 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:33:23 +0300] During processing of request from 127.0.0.1:56520
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:56520 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:42:40 +0300] During processing of request from 127.0.0.1:57128
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:57128 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:44:45 +0300] During processing of request from 127.0.0.1:57428
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:57428 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:45:52 +0300] During processing of request from 127.0.0.1:57570
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:57570 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:46:25 +0300] During processing of request from 127.0.0.1:57648
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:57648 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:50:23 +0300] During processing of request from 127.0.0.1:58198
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58198 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:50:25 +0300] During processing of request from 127.0.0.1:58208
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58208 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:50:26 +0300] During processing of request from 127.0.0.1:58218
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58218 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:50:27 +0300] During processing of request from 127.0.0.1:58224
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58224 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:50:31 +0300] During processing of request from 127.0.0.1:58238
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58238 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:51:41 +0300] During processing of request from 127.0.0.1:58344
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58344 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:51:42 +0300] During processing of request from 127.0.0.1:58352
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58352 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:51:42 +0300] During processing of request from 127.0.0.1:58358
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58358 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:51:50 +0300] During processing of request from 127.0.0.1:58372
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58372 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:19:57:37 +0300] During processing of request from 127.0.0.1:58742
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58742 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  password authentication failed for user "mihai"
+FATAL:  password authentication failed for user "mihai"
+)
+[17/Apr/2022:19:58:01 +0300] During processing of request from 127.0.0.1:58782
+request:
+"GET /api/drugs HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:58782 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (FATAL:  password authentication failed for user "mihai"
+FATAL:  password authentication failed for user "mihai"
+)
+[17/Apr/2022:20:12:08 +0300] During processing of request from 127.0.0.1:59792
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:59792 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:20:12:15 +0300] During processing of request from 127.0.0.1:59810
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:59810 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:20:12:46 +0300] During processing of request from 127.0.0.1:59888
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:59888 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:20:13:29 +0300] During processing of request from 127.0.0.1:59982
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:59982 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+libpq: failed (fe_sendauth: no password supplied
+)
+[17/Apr/2022:20:13:35 +0300] During processing of request from 127.0.0.1:60000
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:60000 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42P01", sqlExecStatus = FatalError, sqlErrorMsg = "relation \"dbversion\" does not exist", sqlErrorDetail = "", sqlErrorHint = ""}
+[17/Apr/2022:20:14:30 +0300] During processing of request from 127.0.0.1:60122
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:60122 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42P01", sqlExecStatus = FatalError, sqlErrorMsg = "relation \"dbversion\" does not exist", sqlErrorDetail = "", sqlErrorHint = ""}
+[17/Apr/2022:20:16:18 +0300] During processing of request from 127.0.0.1:60252
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:60252 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42P01", sqlExecStatus = FatalError, sqlErrorMsg = "relation \"dbversion\" does not exist", sqlErrorDetail = "", sqlErrorHint = ""}
+[17/Apr/2022:20:16:25 +0300] During processing of request from 127.0.0.1:60270
+request:
+"GET /api/version HTTP/1.1\naccept: */*\nuser-agent: curl/7.74.0\nhost: localhost:8000\n\nsn=\"localhost:8000\" c=127.0.0.1:60270 s=127.0.0.1:8000 ctx=/ clen=n/a"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42P01", sqlExecStatus = FatalError, sqlErrorMsg = "relation \"dbversion\" does not exist", sqlErrorDetail = "", sqlErrorHint = ""}
