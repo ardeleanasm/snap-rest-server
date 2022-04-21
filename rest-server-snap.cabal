@@ -37,11 +37,11 @@ executable rest-server-snap
                      , heist
                      , mtl
                      , postgresql-simple
-                     , sqlite-simple
                      , snap-core
                      , snap-loader-static
                      , snap-server
                      , snaplet-postgresql-simple
+                     , transformers
                      , text
                      , time
                      , xmlhtml

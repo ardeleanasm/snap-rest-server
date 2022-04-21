@@ -9,14 +9,13 @@ import Types
 
 
 createPairs::[B.ByteString]->[(B.ByteString,B.ByteString)]
-createPairs drugList = [(x,y) | x<-drugList, y<-drugList, x/=y, y>=x]
+createPairs drugList = [(x,y) | x<-drugList, y<-drugList, x/=y]
 
 
 getDrugPairs::String->[(B.ByteString,B.ByteString)]
-getDrugPairs drugList = createPairs $ map B.pack (splitOn " " drugList)
+getDrugPairs drugList = createPairs $ map B.pack (splitOn "," drugList)
 
 
 
 
-findInteractions::String -> Interactions
-findInteractions drug = Interactions "sth" "sth" 1
+

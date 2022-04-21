@@ -69,16 +69,19 @@ instance FromRow DbEntryInteractions where
                                 <*> field
 
 instance ToJSON DbEntryInteractions where
-  toJSON (DbEntryInteractions id drug1name db1id drug2name db2id interaction) = object [ "id" .= id
-                                                                                       , "drug1name" .= drug1name
+  toJSON (DbEntryInteractions iid drug1 db1id drug2 db2id interaction) = object [ "id" .= iid
+                                                                                       , "drug1name" .= drug1
                                                                                        , "db1id" .= db1id
-                                                                                       , "drug2name" .= drug2name
+                                                                                       , "drug2name" .= drug2
                                                                                        , "db2id" .= db2id
                                                                                        , "interaction" .= interaction]
 instance FromRow Interactions where
   fromRow = Interactions <$> field
                          <*> field
                          <*> field
+
+
+
 
 instance ToJSON Interactions where
   toJSON (Interactions drug1name drug2name interaction) = object [ "drug1name" .= drug1name

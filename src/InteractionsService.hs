@@ -14,7 +14,8 @@ import Snap.Snaplet.PostgresqlSimple
 import qualified Data.ByteString.Char8 as B
 
 import InteractionsUtil
-
+import Control.Monad
+import qualified Data.String as DS
 
 
 data InteractionsService = InteractionsService { _pg :: Snaplet Postgres}
@@ -28,35 +29,33 @@ interactionsRoutes = [
               ] --, ("/", method POST createTodo)]
 
 
--- curl -XGET localhost:8000/api/interactions/drugs?list=umftenol,uvtenol,uptenol
+-- curl -XGET localhost:8000/api/interactions/drugs?list=macimorelin,naproxen,metformin
 -- umftenol,uvtenol,uptenol
 
 
-queryDatabase::(B.ByteString,B.ByteString) ->[Interactions]
-queryDatabase (drug1,drug2) = do
-    interaction <- query "SELECT drug1name,drug2name,interactioncode FROM interactions WHERE drug1name = ? and drug2name = ?" ((B.unpack drug1)::String, (B.unpack drug2)::String):: [Interactions]
-    return interaction
 
 
+
+makeQuery::B.ByteString->B.ByteString->Query
+makeQuery drug1 drug2 = DS.fromString ("SELECT drug1,drug2,interaction FROM interactions WHERE drug1 = '"++(B.unpack drug1)++"' and drug2 = '"++(B.unpack drug2)++"'")
 
 
 getDrugList :: Handler b InteractionsService ()
 getDrugList = do
   drugList <- getQueryParam "list"
   let drugs = getDrugPairs $ show drugList
-  let interactionPairs = map queryDatabase drugs
+  let drugs = getDrugPairs $ show drugList
   modifyResponse $ setHeader "Content-type" "application/json"
-  writeLBS . encode $ (interactionPairs :: [[Interactions]])
---  writeBS $ concat interactionPairs
---  writeBS $ show drugList
---  pairs <- getDrugPairs drugList
---  maybe (writeBS "must specify echo/param in URL")
---    writeBS $ getDrugPairs (show drugList)
-  -- make pairs of drugs and check in database
+  forM_ drugs $ \(drug1,drug2) -> do
+   logError ((B.pack "Drug Pair") <> drug1 <> drug2)
+   let theQuery = makeQuery drug1 drug2
+   pair<-query_ theQuery
+   writeLBS . encode $ (pair::[Interactions])
+      
+
+                                                               
+  
     
- 
-
-
 
 
 interactionsServiceInit :: SnapletInit b InteractionsService
