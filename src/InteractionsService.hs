@@ -53,11 +53,10 @@ getDrugList = do
 --   logError ((B.pack "Drug Pair") <> drug1 <> drug2)
         let theQuery = makeQuery drug1 drug2
         pair<-query_ theQuery
-
         writeLBS . encode $ (pair::[Interactions])
     Nothing -> writeBS "must specify param in URL"
 
-
+--curl -XGET localhost:8000/api/interactions/drugs?list=uptenol,umftenol,uvtenol
       
 
                                                                

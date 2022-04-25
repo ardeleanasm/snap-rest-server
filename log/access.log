@@ -219,3 +219,6 @@
 127.0.0.1 - - [21/Apr/2022:23:46:21 +0300] "GET /api/interactions/drugs?list=uptenol,umftenol,uvtenol HTTP/1.1" 200 250 - "curl/7.74.0"
 127.0.0.1 - - [21/Apr/2022:23:46:23 +0300] "GET /api/interactions/drugs?list=uptenol,umftenol,uvtenol HTTP/1.1" 200 250 - "curl/7.74.0"
 127.0.0.1 - - [21/Apr/2022:23:46:58 +0300] "GET /api/interactions/drugs?list=uptenol,umftenol,uvtenol HTTP/1.1" 200 250 - "curl/7.74.0"
+127.0.0.1 - - [25/Apr/2022:16:14:34 +0300] "GET /api/interactions/drugs?list=uptenol,umftenol,uvtenol HTTP/1.1" 200 250 - "curl/7.74.0"
+127.0.0.1 - - [25/Apr/2022:17:29:59 +0300] "GET /api/interactions/drugs?list=uptenol,umftenol,uvtenol HTTP/1.1" 200 274 - "curl/7.74.0"
+127.0.0.1 - - [25/Apr/2022:18:18:16 +0300] "GET /api/interactions/drugs?list=uptenol,umftenol,uvtenol HTTP/1.1" 200 220 - "curl/7.74.0"
